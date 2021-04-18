@@ -1,0 +1,20 @@
+.result-section {
+  &__text {
+    color: rgb(70, 70, 70);
+    &_type {
+      &_title {
+        font-size: 18px;
+      }
+    }
+  }
+  &__clear-button {
+    &_type_hidden {
+      display: none;
+    }
+  }
+  &__texts {
+    &_type_hidden {
+      display: none;
+    }
+  }
+}
