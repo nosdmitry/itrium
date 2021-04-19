@@ -2,7 +2,7 @@
 
 Задача: реализовать отправку запросов.
 
-Посмотреть работу можно [здесь](https://nosdmitry.github.io/itrium).
+Посмотреть работу можно [здесь](https://nosdmitry.github.io/itrium/index.html).
 
 ----
 
