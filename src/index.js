@@ -68,16 +68,16 @@ function formCreatedRequest(data) {
 
   resultWrap.classList.add('result__container');
   title.classList.add('result__text', 'result__title');
-  result.classList.add('result__text')
-  status.classList.add('result__text')
-  url.classList.add('result__text')
-  method.classList.add('result__text')
-  bodyTitle.classList.add('result__text')
-  headerLists.classList.add('result__text')
-  headerTitle.classList.add('result__text')
-  headerLists.classList.add('result__text', 'result__lists')
-  headerTitle.classList.add('result__text')
-  body.classList.add('result__body')
+  result.classList.add('result__text');
+  status.classList.add('result__text');
+  url.classList.add('result__text');
+  method.classList.add('result__text');
+  bodyTitle.classList.add('result__text');
+  headerLists.classList.add('result__text');
+  headerTitle.classList.add('result__text');
+  headerLists.classList.add('result__text', 'result__lists');
+  headerTitle.classList.add('result__text');
+  body.classList.add('result__body');
 
   repeatButton.textContent = 'repeat request';
   headerTitle.textContent = 'Response Headers:';
