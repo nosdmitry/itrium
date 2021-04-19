@@ -1,4 +1,5 @@
 .result-section {
+
   &__text {
     color: rgb(70, 70, 70);
     &_type {
@@ -16,5 +17,32 @@
     &_type_hidden {
       display: none;
     }
+  }
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  &__text {
+    margin: 0;
+    padding: 0;
+    color: rgb(26, 25, 25);
+  }
+  &__title {
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  &__lists {
+    margin-left: 25px;
+    padding: 0;
+  }
+  &__header-text {
+    margin: 0;
+    padding: 0;
+  }
+  &__body {
+    display: block;
+    margin-left: 25px;
   }
 }

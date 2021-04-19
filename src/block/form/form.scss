@@ -1,16 +1,19 @@
 .form {
-  
+  display: grid;
+  row-gap: 20px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 20px;
   &__wrap {
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 70% auto;
     column-gap: 10px;
     row-gap: 10px;
     box-sizing: border-box;
-    border: 1px solid red;
   }
 
   &__input {
-    min-width: 100px;
+    min-width: 50px;
     width: 100%;
     box-sizing: border-box;
 
@@ -47,7 +50,7 @@
     text-align: right;
     margin: 0;
     padding: 0;
-    color: black;
+    color: #434343;
   }
 
   &__submit-button {

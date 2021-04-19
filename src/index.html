@@ -10,6 +10,7 @@
 
 <body>
   <section class="page">
+    <h1 class="page__title">Header finder</h1>
     <form class="form">
       <div class="form__wrap">
         <input class="form__input form__input_type_url" type="text" placeholder="Enter URL..."
@@ -31,26 +32,25 @@
       </div>
 
     </form>
+  
 
-  </section>
+    <section class="result-section">
+      <div class="result-section__texts result-section__texts_type_hidden">
+        <h1 class="result-section__text result-section__text_type_title">Your logs will be here</h1>
+        <p class="result-section__text result-section__text_type_text">Enter url, choose a method and get http status and headers</p>
+        <p class="result-section__text result-section__text_type_text">
+          You may choose <a href="http://jsonplaceholder.typicode.com/">jsonplaceholder</a> resource to play with 
+          different methods.
+        </p>
 
-  <hr />
-
-  <section class="result-section">
-    <div class="result-section__texts result-section__texts_type_hidden">
-      <h1 class="result-section__text result-section__text_type_title">Your logs will be here</h1>
-      <p class="result-section__text result-section__text_type_text">Enter url, choose a method and get http status and headers</p>
-      <p class="result-section__text result-section__text_type_text">
-        You may choose <a href="http://jsonplaceholder.typicode.com/">jsonplaceholder</a> resource to play with 
-        different methods.
-      </p>
-
-    </div>
-    <button type="button" class="result-section__clear-button result-section__clear-button_type_hidden">Clear history</button> 
-    <div class="result">
-      
-    </div>
-  </section>
+      </div>
+      <button type="button" class="result-section__clear-button result-section__clear-button_type_hidden">Clear history</button> 
+      <div class="result">
+        
+      </div>
+    </section>
+</section>
+  
 </body>
 
 </html>

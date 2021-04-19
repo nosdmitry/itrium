@@ -1,0 +1,10 @@
+export const form = document.querySelector('.form');
+export const formUrl = form.querySelector('.form__input_type_url');
+export const formMethod = form.querySelector('.form__input_type_method');
+export const formBody = form.querySelector('.form__input_type_body');
+export const formInputsWrap = form.querySelector('.form__wrap');
+export const addNewHeaderButton = form.querySelector('.form__add-header');
+export const addDataButton = form.querySelector('.form__submit-button');
+export const resultSection = document.querySelector('.result');
+export const clearHistoryButton = document.querySelector('.result-section__clear-button');
+export const resultTexts = document.querySelector('.result-section__texts');
